@@ -1057,8 +1057,11 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: var(--color-primary);
+}
+
+.testimonials.section-bg .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #fff;
-  opacity: 0.5;
 }
 
 @media (max-width: 767px) {
@@ -2665,10 +2668,14 @@ section {
 }
 
 /** css added by sakil starts here **/
-.section-bg .section-header,
-.section-bg .section-header h2 {color: #fff;}
+.section-bg,
+.section-bg h2, .section-bg h3, .section-bg p, .section-bg .icon-box h4 a {color: #fff;}
 .section-bg .section-header h2:before,
 .section-bg .section-header h2:after {
   background-color: #fff;
+  opacity: 0.5; 
+}
+.section-bg .testimonial-item p {
+  color: var(--color-default) !important;
 }
 /** css added by sakil ends here **/

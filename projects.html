@@ -48,9 +48,9 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" class="active">About Us</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="projects.html">Testimonials & Gallery</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="projects.html" class="active">Testimonials & Gallery</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
@@ -61,152 +61,199 @@
   <main id="main" class="active">
 
     <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('resources/img/3d-renderings-1.jpg');">
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('resources/img/aerial-rendering.jpg');">
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
-        <h2>About</h2>
+        <h2>Projects</h2>
         <ol>
           <li><a href="index.html">Home</a></li>
-          <li>About</li>
+          <li>Projects</li>
         </ol>
 
       </div>
     </div><!-- End Breadcrumbs -->
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <!-- ======= Our Projects Section ======= -->
+    <section id="projects" class="projects">
       <div class="container" data-aos="fade-up">
 
-        <div class="row position-relative">
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
 
-          <div class="col-lg-7 about-img" style="background-image: url(resources/img/about.jpg);"></div>
+          <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-architectural">Architectural Renderings</li>
+            <li data-filter=".filter-product">Product Renderings</li>
+            <li data-filter=".filter-interior">Interior & Exterior Renderings</li>
+            <li data-filter=".filter-commercial">Commercial Renderings</li>
+          </ul><!-- End Projects Filters -->
 
-          <div class="col-lg-7">
-            <h2>The 3DAnimate</h2>
-            <div class="our-story">
-              <h4>Est 2014</h4>
-              <h3>Our Story</h3>
-              <p>Our journey began in [Year], when a team of passionate artists and technology enthusiasts came together with a shared vision—to revolutionize the world of 3D renderings. With a deep understanding of design principles and cutting-edge software expertise, we set out to create a platform that would elevate visualization to new heights.</p>
+          <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-              <p>In the early days, we started small, collaborating with local businesses and architects to bring their visions to life through stunning 3D renderings. As our reputation for quality and innovation grew, so did our clientele. Word-of-mouth referrals and positive feedback fueled our growth, allowing us to expand our team and capabilities.</p>
-                
-              <p>Through continuous learning and adaptation, we stayed at the forefront of technological advancements, integrating the latest tools and techniques to deliver unparalleled results. Today, we stand as a leading name in the industry, trusted by clients worldwide for our commitment to excellence and creativity.</p>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="resources/img/projects/product-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product Renderings</h4>
+                 
+                  <a href="resources/img/projects/product-1.jpg" title="Product Renderings" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
 
-              <!-- <div class="watch-video d-flex align-items-center position-relative">
-                <i class="bi bi-play-circle"></i>
-                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox stretched-link">Watch Video</a>
-              </div> -->
-            </div>
-          </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-architectural">
+              <div class="portfolio-content h-100">
+                <img src="resources/img/projects/architectural-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Architectural Renderings</h4>
+                 
+                  <a href="resources/img/projects/architectural-1.jpg" title="Architectural Renderings" data-gallery="portfolio-gallery-architectural" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-interior">
+              <div class="portfolio-content h-100">
+                <img src="resources/img/projects/interior-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Interior & Exterior Renderings</h4>
+                 
+                  <a href="resources/img/projects/interior-1.jpg" title="Interior & Exterior Renderings" data-gallery="portfolio-gallery-interior" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-commercial">
+              <div class="portfolio-content h-100">
+                <img src="resources/img/projects/commercial-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Commercial Renderings</h4>
+                 
+                  <a href="resources/img/projects/commercial-1.jpg" title="Commercial Renderings" data-gallery="portfolio-gallery-commercial" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="resources/img/projects/product-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product Renderings</h4>
+                 
+                  <a href="resources/img/projects/product-2.jpg" title="Product Renderings" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-architectural">
+              <div class="portfolio-content h-100">
+                <img src="resources/img/projects/architectural-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Architectural Renderings</h4>
+                 
+                  <a href="resources/img/projects/architectural-2.jpg" title="Architectural Renderings" data-gallery="portfolio-gallery-architectural" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-interior">
+              <div class="portfolio-content h-100">
+                <img src="resources/img/projects/interior-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Interior & Exterior Renderings</h4>
+                 
+                  <a href="resources/img/projects/interior-2.jpg" title="Interior & Exterior Renderings" data-gallery="portfolio-gallery-interior" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-commercial">
+              <div class="portfolio-content h-100">
+                <img src="resources/img/projects/commercial-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Commercial Renderings</h4>
+                 
+                  <a href="resources/img/projects/commercial-2.jpg" title="Commercial Renderings" data-gallery="portfolio-gallery-commercial" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="resources/img/projects/product-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product Renderings</h4>
+                 
+                  <a href="resources/img/projects/product-3.jpg" title="Product Renderings" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-architectural">
+              <div class="portfolio-content h-100">
+                <img src="resources/img/projects/architectural-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Architectural Renderings</h4>
+                 
+                  <a href="resources/img/projects/architectural-3.jpg" title="Architectural Renderings" data-gallery="portfolio-gallery-architectural" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-interior">
+              <div class="portfolio-content h-100">
+                <img src="resources/img/projects/interior-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Interior & Exterior Renderings</h4>
+                 
+                  <a href="resources/img/projects/interior-3.jpg" title="Interior & Exterior Renderings" data-gallery="portfolio-gallery-interior" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-commercial">
+              <div class="portfolio-content h-100">
+                <img src="resources/img/projects/commercial-4.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Commercial Renderings</h4>
+                 
+                  <a href="resources/img/projects/commercial-4.jpg" title="Commercial Renderings" data-gallery="portfolio-gallery-commercial" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-commercial">
+              <div class="portfolio-content h-100">
+                <img src="resources/img/projects/commercial-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Commercial Renderings</h4>
+                 
+                  <a href="resources/img/projects/commercial-3.jpg" title="Commercial Renderings" data-gallery="portfolio-gallery-commercial" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+          </div><!-- End Projects Container -->
 
         </div>
 
       </div>
-    </section>
-    <!-- End About Section -->
+    </section><!-- End Our Projects Section -->
 
-    <!-- ======= Stats Counter Section ======= -->
-    <section id="stats-counter" class="stats-counter section-bg">
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Happy Clients</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="bi bi-journal-richtext color-orange flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Projects</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="bi bi-headset color-green flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Hours Of Support</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="bi bi-people color-pink flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Hard Workers</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
-      </div>
-    </section><!-- End Stats Counter Section -->
-
-    <!-- ======= Alt Services Section ======= -->
-    <section id="alt-services" class="alt-services">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row justify-content-around gy-4">
-          <div class="col-lg-6 img-bg" style="background-image: url(resources/img/alt-services.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
-
-          <div class="col-lg-5 d-flex flex-column justify-content-center">
-            <h3>Our Commitment to Quality Work, On-Time Delivery, and Customer Satisfaction</h3>
-            <p>Discover excellence with us! We're dedicated to delivering top-notch work, punctual service, and ensuring customer satisfaction. Your success is our mission.</p>
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
-              <i class="bi bi-patch-check flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Quality Work</a></h4>
-                <p>Backed by unmatched expertise and unwavering dedication, we consistently deliver top-tier quality outcomes, setting new standards.</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-clock flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">On-Time Delivery</a></h4>
-                <p>Count on us for punctual delivery, ensuring your projects are always on time and on target, meeting every deadline with precision.</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-headset flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Customer Satisfaction</a></h4>
-                <p>Customer satisfaction is paramount. We prioritize your happiness, ensuring every experience with us is exceptional and fulfilling.</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-currency-dollar flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Affordability</a></h4>
-                <p>Competitive pricing without compromising quality, ensuring affordability for all clients without sacrificing excellence.</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Alt Services Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
+     <!-- ======= Testimonials Section ======= -->
+     <section id="testimonials" class="testimonials section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
