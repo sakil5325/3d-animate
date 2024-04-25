@@ -1642,6 +1642,7 @@ section {
   line-height: 0;
   color: var(--color-primary);
   border-radius: 50%;
+  transition: all 0.4s ease;
   border: 2px dotted var(--color-primary);
 }
 
