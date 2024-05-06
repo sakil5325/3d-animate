@@ -104,7 +104,31 @@
           </div><!-- End Info Item -->
 
         </div>
-
+        <div class="row gy-4 mt-1">
+          <div class="col-lg-3 col-md-6 d-flex align-items-center">
+            <div class="d-flex flex-column">
+              <h3>We are on social media: </h3>
+            </div>
+          </div><!-- End Info Item -->
+          <div class="col-lg-3 col-md-6">
+            <a href="https://www.facebook.com/3DAnimate1" title="Opens in a new window" target="_blank" class="info-item d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-facebook"></i>
+              <h3>Facebook</h3>
+            </a>
+          </div><!-- End Info Item -->
+          <div class="col-lg-3 col-md-6">
+            <a href="https://www.linkedin.com/company/3danimate" title="Opens in a new window" target="_blank" class="info-item d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-linkedin"></i>
+              <h3>LinkedIn</h3>
+            </a>
+          </div><!-- End Info Item -->
+          <div class="col-lg-3 col-md-6">
+            <a href="https://www.instagram.com/3d.animate/" title="Opens in a new window" target="_blank" class="info-item d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-instagram"></i>
+              <h3>Instagram</h3>
+            </a>
+          </div><!-- End Info Item -->
+        </div>
         <div class="row gy-4 mt-1">
 
           <div class="col-lg-6">
@@ -120,21 +144,21 @@
                 </div>
               </div>
               <div class="row gy-4">
-                <div class="col-lg-6 form-group">
+                <div class="col-lg-6">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                   <span class="error-msg"></span>
                 </div>
                 <div class="col-lg-6 form-group">
-                  <input type="text" name="contact" class="form-control" id="contactTxt" placeholder="Your Contact No" required>
+                  <input type="text" name="contact" class="form-control" id="contactTxt" placeholder="Your Contact No">
                   <span class="error-msg"></span>
                 </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
                 <span class="error-msg"></span>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" id="message" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="5" id="message" placeholder="Message"></textarea>
                 <span class="error-msg"></span>
               </div>
               <div class="my-3">
@@ -173,8 +197,8 @@
               <div class="social-links d-flex mt-3">
                 <a href="https://www.facebook.com/3DAnimate1" title="Opens in a new window" target="_blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
                 <a href="https://www.linkedin.com/company/3danimate" title="Opens in a new window" target="_blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
-                <!-- <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a> -->
+                <!-- <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a> -->
+                <a href="https://www.instagram.com/3d.animate/" title="Opens in a new window" target="_blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
               </div>
             </div>
           </div><!-- End footer info column-->
@@ -267,9 +291,9 @@
             
             if (!validateFullName()) return;
             if (!validateEmail()) return;
-            if (!validateContact()) return;
-            if (!validateSubject()) return;
-            if (!validateMessage()) return;
+            //if (!validateContact()) return;
+            ///if (!validateSubject()) return;
+            //if (!validateMessage()) return;
 
             // If all validations pass, submit the form via AJAX
             submitForm();
