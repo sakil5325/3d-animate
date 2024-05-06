@@ -2695,4 +2695,20 @@ section {
   font-size: 20px;
   line-height: 36px;
 }
+.contact .php-email-form .error-msg {
+  color: #df1529;
+  font-size: 12px;
+  font-weight: 500;
+}
+.interests input[type="checkbox"] {
+  width: 20px;
+  height: 20px !important;
+}
+.interests .form-group label span {
+  padding-left: 10px;
+}
+.interests .form-group > label {
+  display: flex;
+  align-items: center;
+}
 /** css added by sakil ends here **/

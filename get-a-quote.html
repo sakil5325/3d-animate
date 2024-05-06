@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>3D Animate | Contact Us</title>
+  <title>3D Animate | Get A Quote</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -51,8 +51,8 @@
           <li><a href="about.html">About Us</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="projects.html">Testimonials & Gallery</a></li>
-          <li><a href="get-a-quote.html">Get a quote</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="get-a-quote.html" class="active">Get a quote</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -62,13 +62,13 @@
   <main id="main" class="active">
 
     <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('resources/img/contact-us.jpg');">
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('resources/img/quote-banner.jpg');">
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
-        <h2>Contact</h2>
+        <h2>Get A Quote</h2>
         <ol>
           <li><a href="index.html">Home</a></li>
-          <li>Contact</li>
+          <li>Get A Quote</li>
         </ol>
 
       </div>
@@ -78,44 +78,17 @@
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4">
-          <div class="col-lg-6">
-            <div class="info-item  d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-map"></i>
-              <h3>Our Address</h3>
-              <p>Mississauga Ontario Canada</p>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-envelope"></i>
-              <h3>Email Us</h3>
-              <p>Erik@3danimate.net</p>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item  d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-telephone"></i>
-              <h3>Call Us</h3>
-              <p>+1 (269)-496-5470</p>
-            </div>
-          </div><!-- End Info Item -->
-
-        </div>
-
         <div class="row gy-4 mt-1">
 
-          <div class="col-lg-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184985.77678765866!2d-79.49434774999999!3d43.57732645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b469fe76b05b7%3A0x3146cbed75966db!2sMississauga%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sin!4v1714037132328!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 452px;" allowfullscreen></iframe>
-          </div><!-- End Google Maps -->
-
-          <div class="col-lg-6">
+          <div class="col-lg-10 offset-lg-1">
             <div class="php-email-form">
               <div class="row gy-4">
-                <div class="col-lg-12 form-group">
-                  <input type="text" name="full_name" class="form-control" id="full_name" placeholder="Your Name" required>
+                <div class="col-lg-6 form-group">
+                  <input type="text" name="first_name" class="form-control" id="first_name" placeholder="Your First Name" required>
+                  <span class="error-msg"></span>
+                </div>
+                <div class="col-lg-6 form-group">
+                  <input type="text" name="last_name" class="form-control" id="last_name" placeholder="Your Last Name" required>
                   <span class="error-msg"></span>
                 </div>
               </div>
@@ -129,9 +102,85 @@
                   <span class="error-msg"></span>
                 </div>
               </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                <span class="error-msg"></span>
+              <div class="row gy-4">
+                <div class="col-lg-6 form-group">
+                  <input type="text" class="form-control" name="company" id="company" placeholder="Your Company Name" required>
+                  <span class="error-msg"></span>
+                </div>
+                <div class="col-lg-6 form-group">
+                  <input type="date" name="meeting_date" class="form-control" id="meeting_date" placeholder="Meeting Date" required>
+                  <span class="error-msg"></span>
+                </div>
+              </div>
+              <div class="row gy-4 services">
+                <div class="col-lg-12 form-group">
+                  <label>To assist you better, could you please specify your area of interest or the information you're seeking?</label>
+                </div>
+              </div>
+              <div class="interests">
+                <div class="row gy-4">
+                  <div class="col-lg-4 col-sm-6 col-xs-12 form-group">
+                    <label for="interests">
+                      <input type="checkbox" name="interests" value="3D Animation">
+                      <span>3D Animation</span>
+                    </label>
+                  </div>
+                  <div class="col-lg-4 col-sm-6 col-xs-12 form-group">
+                    <label for="interests">
+                      <input type="checkbox" name="interests" value="3D Florrplans">
+                      <span>3D Florrplans</span>
+                    </label>
+                  </div>
+                  <div class="col-lg-4 col-sm-6 col-xs-12 form-group">
+                    <label for="interests">
+                      <input type="checkbox" name="interests" value="3D Renderings">
+                      <span>3D Renderings</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="row gy-4">
+                  <div class="col-lg-4 col-sm-6 col-xs-12 form-group">
+                    <label for="interests">
+                      <input type="checkbox" name="interests" value="Interactive Apps">
+                      <span>Interactive Apps</span>
+                    </label>
+                  </div>
+                  <div class="col-lg-4 col-sm-6 col-xs-12 form-group">
+                    <label for="interests">
+                      <input type="checkbox" name="interests" value="Interactive 360">
+                      <span>Interactive 360</span>
+                    </label>
+                  </div>
+                  <div class="col-lg-4 col-sm-6 col-xs-12 form-group">
+                    <label for="interests">
+                      <input type="checkbox" name="interests" value="Mobile Applications">
+                      <span>Mobile Applications</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="row gy-4">
+                  <div class="col-lg-4 col-sm-6 col-xs-12 form-group">
+                    <label for="interests">
+                      <input type="checkbox" name="interests" value="Virtual Reality Tours">
+                      <span>Virtual Reality Tours</span>
+                      
+                    </label>
+                  </div>
+                  <div class="col-lg-4 col-sm-6 col-xs-12 form-group">
+                    <label for="interests">
+                      <input type="checkbox" name="interests" value="Virtual Staging">
+                      <span>Virtual Staging</span>
+                    </label>
+                  </div>
+                  <div class="col-lg-4 col-sm-6 col-xs-12 form-group">
+                    &nbsp;
+                  </div>
+                </div>
+                <div class="row gy-4">
+                  <div class="col-lg-12 form-group">
+                    <span class="error-msg"></span>
+                  </div>
+                </div>
               </div>
               <div class="form-group">
                 <textarea class="form-control" name="message" rows="5" id="message" placeholder="Message" required></textarea>
@@ -140,9 +189,9 @@
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Your form has been submitted successfully. Thank you!</div>
               </div>
-              <div class="text-center"><button id="contactSubmitBtn" type="submit">Send Message</button></div>
+              <div class="text-center"><button id="contactSubmitBtn" type="submit">Submit</button></div>
             </div>
           </div>
           <!-- End Contact Form -->
@@ -265,23 +314,36 @@
         $("#contactSubmitBtn").click(function(event){
             event.preventDefault(); // Prevent default form submission
             
-            if (!validateFullName()) return;
+            if (!validateFirstName()) return;
+            if (!validateLastName()) return;
             if (!validateEmail()) return;
             if (!validateContact()) return;
-            if (!validateSubject()) return;
+            if (!validateCompany()) return;
+            if (!validateMeetingDate()) return;
+            if (!validateInterest()) return;
             if (!validateMessage()) return;
 
             // If all validations pass, submit the form via AJAX
             submitForm();
         });
         
-        function validateFullName() {
-            var fullName = $("#full_name").val();
+        function validateFirstName() {
+            var fullName = $("#first_name").val();
             if(fullName == "") {
-                $("#full_name").next(".error-msg").text("Please enter your full name");
+                $("#first_name").next(".error-msg").text("Please enter your first name");
                 return false;
             }
-            $("#full_name").next(".error-msg").text("");
+            $("#first_name").next(".error-msg").text("");
+            return true;
+        }
+
+        function validateLastName() {
+            var fullName = $("#last_name").val();
+            if(fullName == "") {
+                $("#last_name").next(".error-msg").text("Please enter your last name");
+                return false;
+            }
+            $("#last_name").next(".error-msg").text("");
             return true;
         }
 
@@ -305,15 +367,44 @@
             return true;
         }
 
-        function validateSubject() {
-            var subject = $("#subject").val();
-            if(subject == "") {
-              $("#subject").next(".error-msg").text("Please enter the subject");
+        function validateCompany() {
+            var company = $("#company").val();
+            if(company == "") {
+              $("#company").next(".error-msg").text("Please enter your company name");
                 return false;
             }
-            $("#subject").next(".error-msg").text("");
+            $("#company").next(".error-msg").text("");
             return true;
         }
+
+        function validateMeetingDate() {
+            var company = $("#meeting_date").val();
+            if(company == "") {
+              $("#meeting_date").next(".error-msg").text("Please select meeting date");
+                return false;
+            }
+            $("#meeting_date").next(".error-msg").text("");
+            return true;
+        }
+
+        function validateInterest() {
+            var checkboxes = $(".interests input[name='interests']:checked");
+            var isChecked = checkboxes.length > 0;
+            if(!isChecked) {
+              $(".interests").find(".error-msg").text("Please select at least one area of your interest");
+              return false;
+            }
+            $(".interests").find(".error-msg").text("");
+            return true;
+        }
+        function getInterestValues() {
+                var checkedCheckboxes = $(".interests input[name='interests']:checked");
+                var values = [];
+                checkedCheckboxes.each(function() {
+                    values.push($(this).val());
+                });
+                return values.join(", ");
+            }
 
         function validateMessage() {
             var message = $("#message").val();
@@ -326,31 +417,41 @@
         }
 
         function submitForm() {
-            var fullName = $("#full_name").val();
+            var firstName = $("#first_name").val();
+            var lastName = $("#last_name").val();
             var email = $("#email").val();
             var contact = $("#contactTxt").val();
-            var subject = $("#subject").val();
+            var company = $("#company").val();
+            var meeting_date = $("#meeting_date").val();
             var message = $("#message").val();
+            var interests = getInterestValues();
             $(".loading").show();
 
-            // Ajax request
+            //console.log(firstName +" :: " + lastName +" :: " + email +" :: " + contact +" :: " + company +" :: " + meeting_date +" :: " + message +" :: " + interests)
+            //Ajax request
             $.ajax({
-                url: "https://3danimate.net/api/contact-us.php",
+                url: "https://3danimate.net/api/quote-form.php",
                 type: "POST",
                 data: {
-                    fullName: fullName,
+                    first_name: firstName,
+                    last_name: lastName,
                     email: email,
                     contact: contact,
-                    subject: subject,
-                    message: message
+                    company: company,
+                    meeting_date: meeting_date,
+                    message: message,
+                    options: interests,
                 },
                 success: function(response){
                     // Optionally, reset the form fields
-                    $("#full_name").val("");
+                    $("#first_name").val("");
+                    $("#last_name").val("");
                     $("#email").val("");
                     $("#contactTxt").val("");
-                    $("#subject").val("");
+                    $("#company").val("");
+                    $("#meeting_date").val("");
                     $("#message").val("");
+                    $(".interests input[name='interests']").prop("checked", false);
                     $(".loading").hide();
                     $(".sent-message").show();
                 },
