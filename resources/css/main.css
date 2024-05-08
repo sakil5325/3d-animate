@@ -2711,4 +2711,7 @@ section {
   display: flex;
   align-items: center;
 }
+.desc-bottom .gslide-image img, .desc-top .gslide-image img {
+  pointer-events: none;
+}
 /** css added by sakil ends here **/
