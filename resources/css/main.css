@@ -2714,4 +2714,11 @@ section {
 .desc-bottom .gslide-image img, .desc-top .gslide-image img {
   pointer-events: none;
 }
+#video-section iframe {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  border: none;
+  background-color: #000;
+}
 /** css added by sakil ends here **/
